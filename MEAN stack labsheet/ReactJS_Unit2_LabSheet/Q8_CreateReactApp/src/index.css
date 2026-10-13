@@ -1,0 +1,3 @@
+html { color-scheme: light; }
+body { min-width: 320px; min-height: 100vh; }
+button:focus-visible, input:focus-visible { outline: 3px solid #90b4f4; outline-offset: 2px; }

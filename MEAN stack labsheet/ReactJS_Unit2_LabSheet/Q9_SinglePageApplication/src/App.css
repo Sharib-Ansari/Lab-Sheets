@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f6fb; color: #182235; }
+.page { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+.app-card { width: min(100%, 700px); background: white; border-radius: 18px; padding: 32px; box-shadow: 0 12px 34px rgba(30, 50, 80, .12); }
+h1 { margin-top: 0; }
+.hint { color: #667085; }
+.nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+button { border: 1px solid #cbd5e1; border-radius: 9px; background: #fff; padding: 10px 20px; font-size: 15px; cursor: pointer; }
+button.active { background: #244b88; border-color: #244b88; color: #fff; }
+.view { background: #f6f8fc; border-radius: 12px; padding: 22px; min-height: 150px; }
+.view p { line-height: 1.6; }
+.view small { color: #52627a; }

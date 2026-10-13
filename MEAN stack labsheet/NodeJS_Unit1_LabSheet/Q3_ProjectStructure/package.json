@@ -1,0 +1,10 @@
+{
+  "name": "q3-project-structure",
+  "version": "1.0.0",
+  "description": "Project structure and JavaScript module formats lab",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "commonjs": "node commonjs/index.cjs"
+  }
+}

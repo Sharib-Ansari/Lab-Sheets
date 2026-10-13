@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f6fb; color: #182235; }
+.page { max-width: 1000px; margin: 0 auto; padding: 30px 20px; }
+h1 { text-align: center; }
+.clock { text-align: center; font-size: 20px; background: #e7eefb; border-radius: 12px; padding: 16px; }
+.columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 22px; }
+.counter-card { background: white; border-radius: 15px; padding: 24px; box-shadow: 0 8px 22px rgba(30,50,80,.09); }
+.count { font-size: 42px; font-weight: 700; margin: 18px 0; color: #244b88; }
+button { margin: 4px 6px 4px 0; border: 0; border-radius: 8px; background: #244b88; color: white; padding: 10px 13px; cursor: pointer; }
+.note, .tip { color: #667085; line-height: 1.6; }
+.tip { text-align: center; margin-top: 24px; }

@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f6fb; color: #182235; }
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+.header { text-align: center; padding: 32px 20px; background: #244b88; color: white; }
+.header h1 { margin: 0 0 8px; }
+.header p { margin: 0; opacity: .88; }
+.cards { width: min(100% - 32px, 1050px); margin: 32px auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; flex: 1; }
+.card { background: white; border-radius: 14px; padding: 24px; box-shadow: 0 8px 22px rgba(30,50,80,.09); }
+.card h2 { margin-top: 0; }
+.badge { display: inline-block; padding: 5px 10px; border-radius: 999px; background: #fff0d9; color: #8a5300; font-size: 13px; }
+.badge.pass { background: #dff7e8; color: #17683a; }
+.footer { text-align: center; background: #e4eaf3; padding: 18px; color: #52627a; }
